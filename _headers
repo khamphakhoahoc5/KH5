@@ -1,0 +1,7 @@
+# Dành cho hosting hỗ trợ tệp _headers. Các hosting khác có thể bỏ qua tệp này.
+/*
+  X-Content-Type-Options: nosniff
+  Cache-Control: no-cache
+
+/*.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
