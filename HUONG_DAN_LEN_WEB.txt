@@ -1,0 +1,59 @@
+﻿KHÁM PHÁ KHOA HỌC 5
+ĐƯA ĐẦY ĐỦ BỘ WEB LÊN REPO SKKN-KH BẰNG GITHUB DESKTOP
+
+Gói này tách riêng phần website/PWA từ bộ hồ sơ v28. Nội dung index.html,
+ảnh và video được giữ nguyên. Đã thêm tệp .nojekyll cho GitHub Pages và
+trang KIEM_TRA_DU_FILE.html để kiểm tra bộ file trên máy.
+
+1. CHUẨN BỊ
+Tải và giải nén Khoa_hoc_5_GitHub_Day_du.zip bằng Extract All.
+Mở thư mục sau giải nén. Phải thấy ngay index.html, assets và icons.
+Tải GitHub Desktop từ https://desktop.github.com/download/ và đăng nhập
+đúng tài khoản khamphakhoahoc5.
+
+2. LẤY REPO ĐANG CÓ VỀ MÁY
+Trong GitHub Desktop: File > Clone repository > GitHub.com > SKKN-KH > Clone.
+Nếu dùng tab URL, nhập khamphakhoahoc5/SKKN-KH.
+Chọn Repository > Show in Explorer để mở thư mục SKKN-KH vừa clone.
+
+3. CHÉP TOÀN BỘ NỘI DUNG
+Trong thư mục web đã giải nén, nhấn Ctrl+A, Ctrl+C.
+Dán vào thư mục SKKN-KH vừa mở bằng Ctrl+V.
+Nếu Windows hỏi, chọn Replace the files in the destination.
+Trong SKKN-KH phải thấy ngay index.html, assets, icons và KIEM_TRA_DU_FILE.html.
+Chép các mục bên trong thư mục web; không thêm một thư mục bọc bên ngoài.
+Giữ repo hiện có; không cần xóa repo hoặc xóa các file đã tải trước đó.
+
+4. KIỂM TRA KHÔNG SÓT FILE
+Trong thư mục SKKN-KH, mở KIEM_TRA_DU_FILE.html bằng Chrome hoặc Edge.
+Bấm Chọn thư mục SKKN-KH, rồi chọn đúng thư mục SKKN-KH trên máy.
+Trình duyệt có thể hiện nút Upload/Tải lên để xác nhận việc chọn thư mục.
+Trang này đọc và kiểm tra file ngay trên máy, không gửi file đi.
+Chờ kết quả. Màu xanh và thông báo Đủ và đúng 706 file nghĩa là đủ bộ cần thiết.
+Nếu báo thiếu hoặc khác nội dung, chép lại toàn bộ bộ web rồi kiểm tra lần nữa.
+Các file khác sẵn có trong repo, chẳng hạn README hoặc assets/.gitkeep,
+không làm kiểm tra thất bại.
+
+5. ĐƯA LÊN GITHUB
+Quay lại GitHub Desktop, giữ chọn toàn bộ thay đổi.
+Nhập Summary: Cập nhật đầy đủ học liệu Khoa học 5.
+Bấm Commit to main, sau đó Push origin và chờ hoàn tất.
+Nếu nút Commit hiện tên nhánh khác, ghi nhớ tên nhánh đó cho bước Pages.
+Changes có thể ít hơn 706 file vì file giống hệt bản đã có không hiện là thay đổi.
+Nếu No local changes và không còn Push origin chờ, các file đã đồng bộ.
+
+6. BẬT WEBSITE
+Repository > View on GitHub > Settings > Pages.
+Source: Deploy from a branch.
+Branch: main (hoặc nhánh vừa đẩy lên). Folder: / (root). Bấm Save.
+Chờ xuất bản, sau đó bấm Visit site. Có thể cần đến 10 phút.
+Mở thử ảnh, video và vài bài học trước khi dùng link tạo QR.
+Nếu đã mở bản cũ trước đó, tải lại trang; có thể dùng cửa sổ ẩn danh để đối chiếu.
+
+PWA dùng ngoại tuyến sau khi dữ liệu được tải và lưu thành công trong trình duyệt.
+Lần mở đầu cần mạng. Giữ bản gốc để dùng khi trình duyệt thu hồi bộ nhớ.
+
+TÀI LIỆU THAM KHẢO GITHUB
+https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
+https://docs.github.com/en/desktop/making-changes-in-a-branch/pushing-changes-to-github-from-github-desktop
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

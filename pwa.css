@@ -1,0 +1,1 @@
+#pwa-tools{position:fixed;right:16px;bottom:16px;z-index:40;display:flex;gap:8px;max-width:calc(100vw - 32px)}#pwa-tools button{background:#145c48;color:white;border:0;border-radius:12px;padding:12px 16px;font:600 16px Arial;box-shadow:0 2px 12px #163f3630}#pwa-tools button[hidden]{display:none}
